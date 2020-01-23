@@ -30,6 +30,7 @@ under the License.
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
       <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true"/>
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true"/>
       <excludeFolder url="file://$MODULE_DIR$/target"/>
     </content>  
     <orderEntry type="sourceFolder" forTests="false"/>  
@@ -743,7 +744,7 @@ under the License.
         <SOURCES/>
       </library>
     </orderEntry>
-    <orderEntry scope="TEST" type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar:///home/devperera/.m2/repository/junit/junit/4.13/junit-4.13.jar!/"/>
@@ -1522,7 +1523,7 @@ under the License.
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/devperera/.m2/repository/io/cucumber/cucumber-java/2.4.0/cucumber-java-2.4.0.jar!/"/>
+          <root url="jar:///home/devperera/.m2/repository/io/cucumber/cucumber-java/2.0.0/cucumber-java-2.0.0.jar!/"/>
         </CLASSES>
         <SOURCES/>
       </library>
@@ -1530,7 +1531,7 @@ under the License.
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar:///home/devperera/.m2/repository/io/cucumber/cucumber-junit/2.4.0/cucumber-junit-2.4.0.jar!/"/>
+          <root url="jar:///home/devperera/.m2/repository/io/cucumber/cucumber-junit/2.0.0/cucumber-junit-2.0.0.jar!/"/>
         </CLASSES>
         <SOURCES/>
       </library>
@@ -1547,6 +1548,38 @@ under the License.
       <library>
         <CLASSES>
           <root url="jar:///home/devperera/.m2/repository/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/devperera/.m2/repository/stax/stax/1.2.0/stax-1.2.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/devperera/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/devperera/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar:///home/devperera/.m2/repository/org/jdom/jdom/2.0.2/jdom-2.0.2.jar!/"/>
         </CLASSES>
         <SOURCES/>
       </library>
