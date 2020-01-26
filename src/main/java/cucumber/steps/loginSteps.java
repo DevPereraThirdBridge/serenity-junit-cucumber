@@ -3,11 +3,14 @@ package cucumber.steps;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.Given;
 import static org.junit.Assert.*;
+
+import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import cucumber.steps.serenity.baseSteps;
 
 public class loginSteps  {
 
+    @Managed
     @Steps
     baseSteps basesteps;
 
